@@ -1,7 +1,7 @@
 static void Main(string[] args)
         {
-            Console.WriteLine("Enter 1 for + and 2 for -");
-            int userChoice = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter 1 for +, 2 for -, 3 for / and 4 for x");
+            int userChoice = Convert.ToInt32(Console.ReadLine()); 
             if (userChoice == 1)
             {
                 Console.WriteLine(NumbersAdd());
